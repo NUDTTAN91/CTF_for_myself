@@ -1,0 +1,10 @@
+version: '3.2'
+
+services:
+  web:
+    build: .
+    image: phpall
+    ports:
+      - 80:80
+    environment:
+      - FLAG=flag{78612e4c-28cb-78ed-c81f-68d77d2cfec5}
