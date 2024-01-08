@@ -1,0 +1,10 @@
+version: '3.2'
+
+services:
+  web:
+    build: .
+    image: ezuploads
+    ports:
+      - 80:80
+    environment:
+      - FLAG=flag{17345c7c-f55d-0cd7-f8cb-80e1a22747f2}
